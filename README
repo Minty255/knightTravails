@@ -1,0 +1,16 @@
+Knight Travails Program
+@Author: Minh Dang - July 2014
+
+Program Files: Main.java PathFinder.java Path.java ChessPiece.java Knight.java
+
+This program is written to find paths in which a knight piece can be move from
+a start to a goal position (input by user) on the chessboard. This program will find the
+shortest (minimum turns) path to fulfill this requirement and then will output it to the
+screen. If there are multiple possible solution, user are prompt if they want to output
+more or not.
+
+How to run this program:
+1) In this directory that contain a file call 'Makefile'
+   Run 'make' and program will get compile then execute
+2) User are to input two values - <start> <end>
+3) Program will output the list of shortest possible path
